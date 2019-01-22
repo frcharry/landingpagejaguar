@@ -1,0 +1,58 @@
+html{
+  font-family: 'Roboto',sans-serif;
+  color: white;
+  /*min-width: 768px;*/
+  background: url("../images/jaguar-xe.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section{
+  position: relative;
+  top: 50px;
+  left: 40px;
+  max-width: 600px;
+  min-width: 360px;
+  height: 220px;;
+  z-index: 0;
+}
+.container{
+  position:absolute;
+  background-color: #444442;
+  width: 99%;
+  height: 100%;
+  top: 50px;
+  left: 40px;
+  opacity: 0.9;
+  z-index: 1;
+  border-radius: 15px;
+}
+.text{
+  position: absolute;
+  max-width: 600px;
+  width: 95%;
+  height: 100%;
+  top: 50px;
+  left: 40px;
+  padding: 20px;
+  z-index: 2;
+}
+button{
+  background-color: #DB3030;
+  color: inherit;
+  border: none;
+  text-decoration: inherit;
+  font-size: 14px;
+  padding: 5px 20px 5px 20px;
+  opacity: 1;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
