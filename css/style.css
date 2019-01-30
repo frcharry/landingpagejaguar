@@ -38,7 +38,7 @@ section{
   padding: 20px;
   z-index: 2;
 }
-button{
+a{
   background-color: #DB3030;
   color: inherit;
   border: none;
